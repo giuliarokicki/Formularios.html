@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso Online de HTML</title>
+</head>
+<body>
+    <h1 style="color: purple; font-size: 50px; font-weight: bold;">HTML</h1>
+    <h3>HTML é a sigla para HyperText Markup Language, que significa Linguagem de Marcação de Hipertexto. </h3>
+    <h3>É uma linguagem de programação que define a estrutura e o conteúdo de páginas da web. </h3>
+    <h3>Nesse curso de 40h você vai aprender como fazer isso do zero.</h3>
+    <hr>
+    <h2>Faça seu cadastro:</h2>
+    <form action="https://67d0beec825945773eb1d09c.mockapi.io/aluno" method="post">
+
+
+        <fieldset>
+            <legend>Dados do aluno</legend>
+            <p>
+                <label for="Nome">Nome:</label>
+                <input type="text" name="Nome" id="Nome" placeholder="Digite o nome completo"required>
+            </p>
+            <p>
+                <label for="end">Endereço:</label>
+                <input type="text" name="end" id="end" placeholder="Digite o endereço"required>
+            </p>
+            <p>
+                <label for="bairro">Bairro:</label>
+                <input type="text" name="bairro" id="bairro" placeholder="Digite o bairro"required>
+            </p>
+            <p>
+                <label for="cidade">Cidade:</label>
+                <input type="text" name="cidade" id="cidade" placeholder="Digite a cidade"required>
+            </p>
+            <p>
+                <label for="numero">Número:</label>
+                <input type="text" name="numero" id="numero" placeholder="Digite o número"required>
+            </p>
+            <p>
+                <label for="cep">CEP:</label>
+                <input type="text" name="cep" id="cep" placeholder="Digite o CEP"required>
+            </p>
+            <p>
+                <label for="complemento">Complemento:</label>
+                <input type="text" name="complemento" id="complemento" placeholder="Digite o complemento"required>
+            </p>
+            <p>
+                <label for="estado">Estado:</label>
+                <select name="estado" id="estado">
+                    <option value="o">Selecione...</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="BA">Bahia</option>
+                    </select>
+            
+            </p>
+            <p>
+                <label for="telefone">Telefone:</label>
+                <input type="tel" name="telefone" id="telefone" placeholder="Digite o telefone"required>
+            <p>
+                <label for="celular">Celular:</label>
+                <input type="tel" name="celular" id="celular" placeholder="Digite o celular"required>
+            </p>  
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Digite o email"required>
+            </p>  
+
+            <p>
+                <label for="cor">Etnia:</label>
+                <select name="estado" id="estado">
+                    <option value="o1">Selecione...</option>
+                    <option value="B">Branco</option>
+                    <option value="P">Preto</option>
+                    <option value="PA">Parda</option>
+                    <option value="A">Amarela</option>
+                    <option value="I">Indígena</option>
+                    </select>
+            </p>
+
+    
+        </fieldset>
+
+
+
+        <fieldset>
+            <legend>Dados do Pai</legend>
+            <p>
+                <label for="NomePai">Nome:</label>
+                <input type="text" name="NomePai" id="NomePai" placeholder="Digite o nome completo"required>
+            </p>
+            <p>
+                <label for="nascPai">Data de Nascimento:</label>
+                <input type="date" name="nascPai" id="nascPai"required>
+            </p>
+            <p>
+                <label for="natPai">Naturalidade:</label>
+                <input type="text" name="natPai" id="natPai" placeholder="Digite a naturalidade"required>
+            </p>
+            <p>
+                <label for="instPai">Instrução:</label>
+                <input type="text" name="instPai" id="instPai" placeholder="Digite a instrução"required>
+            </p>
+            <p>
+                <label for="profPai">Profissão:</label>
+                <input type="text" name="profPai" id="profPai" placeholder="Digite a profissão"required>
+            </p>
+            <p>
+                <label for="celPai">Celular:</label>
+                <input type="tel" name="celPai" id="celPai" placeholder="Digite o celular"required>
+            </p>
+            <p>
+                <label for="emailPai">Email:</label>
+                <input type="email" name="emailPai" id="emailPai" placeholder="Digite o email"required>
+            </p>
+            <p>
+                <label for="cpfPai">CPF:</label>
+                <input type="text" name="cpfPai" id="cpfPai" placeholder="Digite o CPF"required>
+            </p>
+            <p>
+                <label for="respPai">Responsável Financeiro:</label>
+                <input type="radio" name="respPai" id="respPai" value="S"required>
+                <label for="S">Sim</label>
+                <input type="radio" name="respPai" id="respPai" value="N"required>
+                <label for="N">Não</label
+            </p>
+                </fieldset>
+ 
+
+
+                <fieldset>
+                    <legend>Dados da Mãe</legend>
+                    <p>
+                        <label for="NomeMae">Nome:</label>
+                        <input type="text" name="NomeMae" id="NomeMae" placeholder="Digite o nome completo"required>
+                    </p>
+                    <p>
+                        <label for="nascMae">Data de Nascimento:</label>
+                        <input type="date" name="nascMae" id="nascMae"required>
+                    </p>
+                    <p>
+                        <label for="natMae">Naturalidade:</label>
+                        <input type="text" name="natMae" id="natMae" placeholder="Digite a naturalidade"required>
+                    </p>
+                    <p>
+                        <label for="instMae">Instrução:</label>
+                        <input type="text" name="instMae" id="instMae" placeholder="Digite a instrução"required>
+                    </p>
+                    <p>
+                        <label for="profMae">Profissão:</label>
+                        <input type="text" name="profMae" id="profMae" placeholder="Digite a profissão"required>
+                    </p>
+                    <p>
+                        <label for="celMae">Celular:</label>
+                        <input type="tel" name="celMae" id="celMae" placeholder="Digite o celular"required>
+                    </p>
+                    <p>
+                        <label for="emailMae">Email:</label>
+                        <input type="email" name="emailMae" id="emailMae" placeholder="Digite o email"required>
+                    </p>
+                    <p>
+                        <label for="cpfMae">CPF:</label>
+                        <input type="text" name="cpfMae" id="cpfMae" placeholder="Digite o CPF"required>
+                    </p>
+                    <p>
+                        <label for="respMae">Responsável Financeiro:</label>
+                        <input type="radio" name="respMae" id="respMae" value="S"required>
+                        <label for="S">Sim</label>
+                        <input type="radio" name="respMae" id="respMae" value="N"required>
+                        <label for="N">Não</label
+
+                    </p>
+
+                </fieldset>
+
+
+
+                <fieldset>
+                    <legend>Dados do Curso</legend>
+                    <p>
+                        <label for="curso">Nome do Curso:</label>
+                        <input type="text" name="curso" id="curso" placeholder="Digite o nome do curso"required>
+                    </p>
+                    <p>
+                        <label for="ingresso">Data de Ingresso:</label>
+                        <input type="date" name="ingresso" id="ingresso"required>
+                    </p>
+                    <p>
+                        <label for="valor">Valor:</label>
+                        <input type="text" name="valor" id="valor" placeholder="Digite o valor"required>
+                    </p>
+                    <p>
+                        <label for="forma">Forma de Pagamento:</label>
+                        <input type="text" name="forma" id="forma" placeholder="Digite a forma de pagamento"required>
+                    </p>
+                    <p>
+                        <label for="parcelas">Quantidade de Parcelas:</label>
+                        <input type="text" name="parcelas" id="parcelas" placeholder="Digite a quantidade de parcelas"required>
+                    </p>
+                </fieldset>
+</body>
+</html>
